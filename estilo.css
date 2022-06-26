@@ -1,0 +1,80 @@
+body{
+    font-size: 100%;
+    background-color: #000000;
+}
+
+.airaContabil{
+    background-color: #750f0f;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1.5em;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.cabecalho-imagem{
+    height: 4em;
+}
+
+.cabecalho-menu{
+    display: flex;
+    column-gap: 2em;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+}
+
+.fundo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    height: 40em;
+    background-image: url(imagens/fundo.jpg);
+}
+
+.fundo-child{
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    font-weight: bold;
+    left: 3%;
+}
+
+.button{
+    background-color: #AA0000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-radius: 150px;
+    position: absolute;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ffffff;
+}
+
+.rodape{
+    background-color: #c9c7c7;
+    text-align: center;
+    padding: 0.1em;
+    font-size: 2em;
+}
